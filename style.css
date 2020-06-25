@@ -1,0 +1,335 @@
+body {
+    box-sizing: border-box;
+    padding: 2px;
+    background-color: #202E38;
+    display: inline-block;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1,
+h3,
+p {
+    color: white;
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(9, 142.6px);
+    grid-gap: 15px;
+    background-color: #202E38;
+}
+
+.text>div {
+    height: 25px;
+    width: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.truck {
+    display: flex;
+    justify-content: center;
+}
+
+.col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.yellow {
+    background-image: linear-gradient(to bottom, #CCC737, #F2F8A3);
+    height: 25px;
+    width: 25px;
+}
+
+.green {
+    background-image: linear-gradient(to bottom, #a6de61 0%, #5aad31 100%);
+    height: 25px;
+    width: 25px;
+}
+
+.blue {
+    background-image: linear-gradient(to bottom, #38cddc 0%, #5989e5 100%);
+    height: 25px;
+    width: 25px;
+}
+
+.Orange {
+    background-image: linear-gradient(to bottom right, #ff636d 0%, #e6ae6b 100%);
+    height: 25px;
+    width: 25px;
+}
+
+.content {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.color-1>h1,
+.color-1>p {
+    background-image: linear-gradient(to bottom, #CCC737, #F2F8A3);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.color-2>h1,
+.color-2>p {
+    background-image: linear-gradient(to bottom, #a6de61 0%, #5aad31 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.color-3>h1,
+.color-3>p {
+    background-image: linear-gradient(to bottom, #38cddc 0%, #5989e5 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.color-4>h1,
+.color-4>p {
+    background-image: linear-gradient(to bottom right, #ff636d 0%, #e6ae6b 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+
+/*.grid-1:hover {
+    background-color: blue;
+}*/
+
+.color-1 {
+    border: 5px solid transparent;
+    border-image: linear-gradient(to bottom, #CCC737, #F2F8A3);
+    border-image-slice: 1;
+    background-clip: text;
+    background-clip: border-box;
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.color-2 {
+    border: 5px solid transparent;
+    border-image: linear-gradient(to top left, #a6de61 0%, #5aad31 100%);
+    border-image-slice: 1;
+    background-clip: text;
+    background-clip: border-box;
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.color-3 {
+    border: 5px solid transparent;
+    border-image: linear-gradient(to bottom right, #38cddc 0%, #5989e5 100%);
+    border-image-slice: 1;
+    background-clip: text;
+    background-clip: border-box;
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.color-4 {
+    border: 5px solid transparent;
+    border-image: linear-gradient(to bottom right, #ff636d 0%, #e6ae6b 100%);
+    border-image-slice: 1;
+    background-clip: text;
+    background-clip: border-box;
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.item:hover>h1 {
+    background-image: none;
+    color: black;
+}
+
+.item:hover>p {
+    background-image: none;
+    color: black
+}
+
+.container>.color-1:hover {
+    background: linear-gradient(to bottom, #CCC737, #F2F8A3);
+    cursor: pointer;
+    -webkit-transform: scale(1.1);
+    border: none;
+}
+
+.container>.color-2:hover {
+    background: linear-gradient(to top left, #a6de61 0%, #5aad31 100%);
+    cursor: pointer;
+    -webkit-transform: scale(1.1);
+    border: none;
+}
+
+.container>.color-3:hover {
+    background: linear-gradient(to bottom right, #38cddc 0%, #5989e5 100%);
+    cursor: pointer;
+    -webkit-transform: scale(1.1);
+    border: none;
+}
+
+.container>.color-4:hover {
+    background: linear-gradient(to bottom, #ff636d 0%, #e6ae6b 100%);
+    cursor: pointer;
+    -webkit-transform: scale(1.1);
+    border: none;
+}
+
+.grid-1 {
+    grid-row: 1;
+    grid-column: 1/2;
+}
+
+.grid-2 {
+    grid-row: 1;
+    grid-column: 2/3;
+}
+
+.grid-3 {
+    grid-row: 1;
+    grid-column: 7/8;
+}
+
+.grid-4 {
+    grid-row: 1;
+    grid-column: 8/9;
+}
+
+.grid-5 {
+    grid-row: 1;
+    grid-column: 9/10;
+}
+
+.grid-6 {
+    grid-row: 2;
+    grid-column: 1/2;
+}
+
+.grid-7 {
+    grid-row: 2;
+    grid-column: 2/3;
+}
+
+.grid-8 {
+    grid-row: 2;
+    grid-column: 3/4;
+}
+
+.grid-9 {
+    grid-row: 2;
+    grid-column: 4/5;
+}
+
+.grid-10 {
+    grid-row: 2;
+    grid-column: 5/6;
+}
+
+.grid-11 {
+    grid-row: 2;
+    grid-column: 6/7;
+}
+
+.grid-12 {
+    grid-row: 2;
+    grid-column: 7/8;
+}
+
+.grid-13 {
+    grid-row: 2;
+    grid-column: 8/9;
+}
+
+.grid-14 {
+    grid-row: 2;
+    grid-column: 9/10;
+}
+
+.grid-15 {
+    grid-row: 3;
+    grid-column: 1/2;
+}
+
+.grid-16 {
+    grid-row: 3;
+    grid-column: 2/3;
+}
+
+.grid-17 {
+    grid-row: 3;
+    grid-column: 3/4;
+}
+
+.grid-18 {
+    grid-row: 3;
+    grid-column: 4/5;
+}
+
+.grid-19 {
+    grid-row: 3;
+    grid-column: 5/6;
+}
+
+.grid-20 {
+    grid-row: 3;
+    grid-column: 6/7;
+}
+
+.grid-21 {
+    grid-row: 3;
+    grid-column: 7/8;
+}
+
+.grid-22 {
+    grid-row: 3;
+    grid-column: 8/9;
+}
+
+.grid-23 {
+    grid-row: 3;
+    grid-column: 9/10;
+}
+
+.grid-24 {
+    grid-row: 4;
+    grid-column: 2/3;
+}
+
+.grid-25 {
+    grid-row: 4;
+    grid-column: 3/4;
+}
+
+.grid-26 {
+    grid-row: 4;
+    grid-column: 4/5;
+}
+
+.grid-27 {
+    grid-row: 4;
+    grid-column: 5/6;
+}
+
+.grid-28 {
+    grid-row: 4;
+    grid-column: 6/7;
+}
+
+.grid-29 {
+    grid-row: 4;
+    grid-column: 7/8;
+}
+
+.grid-30 {
+    grid-row: 4;
+    grid-column: 8/9;
+}
+
+.grid-31 {
+    grid-row: 4;
+    grid-column: 9/10;
+}
